@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25339F251CA196F700478CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25339F241CA196F700478CE9 /* AppDelegate.swift */; };
+		25339F271CA196F700478CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25339F261CA196F700478CE9 /* ViewController.swift */; };
+		25339F291CA196F700478CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25339F281CA196F700478CE9 /* Assets.xcassets */; };
+		25339F2C1CA196F700478CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25339F2A1CA196F700478CE9 /* Main.storyboard */; };
+		25339F371CA196F700478CE9 /* WXResourceRenamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25339F361CA196F700478CE9 /* WXResourceRenamerTests.swift */; };
+		25339F421CA196F700478CE9 /* WXResourceRenamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25339F411CA196F700478CE9 /* WXResourceRenamerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25339F331CA196F700478CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25339F191CA196F700478CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25339F201CA196F700478CE9;
+			remoteInfo = WXResourceRenamer;
+		};
+		25339F3E1CA196F700478CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25339F191CA196F700478CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25339F201CA196F700478CE9;
+			remoteInfo = WXResourceRenamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25339F211CA196F700478CE9 /* WXResourceRenamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXResourceRenamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25339F241CA196F700478CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25339F261CA196F700478CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25339F281CA196F700478CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25339F2B1CA196F700478CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25339F2D1CA196F700478CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25339F321CA196F700478CE9 /* WXResourceRenamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXResourceRenamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25339F361CA196F700478CE9 /* WXResourceRenamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXResourceRenamerTests.swift; sourceTree = "<group>"; };
+		25339F381CA196F700478CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25339F3D1CA196F700478CE9 /* WXResourceRenamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXResourceRenamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25339F411CA196F700478CE9 /* WXResourceRenamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXResourceRenamerUITests.swift; sourceTree = "<group>"; };
+		25339F431CA196F700478CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25339F1E1CA196F700478CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F2F1CA196F700478CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F3A1CA196F700478CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25339F181CA196F700478CE9 = {
+			isa = PBXGroup;
+			children = (
+				25339F231CA196F700478CE9 /* WXResourceRenamer */,
+				25339F351CA196F700478CE9 /* WXResourceRenamerTests */,
+				25339F401CA196F700478CE9 /* WXResourceRenamerUITests */,
+				25339F221CA196F700478CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25339F221CA196F700478CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25339F211CA196F700478CE9 /* WXResourceRenamer.app */,
+				25339F321CA196F700478CE9 /* WXResourceRenamerTests.xctest */,
+				25339F3D1CA196F700478CE9 /* WXResourceRenamerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25339F231CA196F700478CE9 /* WXResourceRenamer */ = {
+			isa = PBXGroup;
+			children = (
+				25339F241CA196F700478CE9 /* AppDelegate.swift */,
+				25339F261CA196F700478CE9 /* ViewController.swift */,
+				25339F281CA196F700478CE9 /* Assets.xcassets */,
+				25339F2A1CA196F700478CE9 /* Main.storyboard */,
+				25339F2D1CA196F700478CE9 /* Info.plist */,
+			);
+			path = WXResourceRenamer;
+			sourceTree = "<group>";
+		};
+		25339F351CA196F700478CE9 /* WXResourceRenamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				25339F361CA196F700478CE9 /* WXResourceRenamerTests.swift */,
+				25339F381CA196F700478CE9 /* Info.plist */,
+			);
+			path = WXResourceRenamerTests;
+			sourceTree = "<group>";
+		};
+		25339F401CA196F700478CE9 /* WXResourceRenamerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25339F411CA196F700478CE9 /* WXResourceRenamerUITests.swift */,
+				25339F431CA196F700478CE9 /* Info.plist */,
+			);
+			path = WXResourceRenamerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25339F201CA196F700478CE9 /* WXResourceRenamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25339F461CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamer" */;
+			buildPhases = (
+				25339F1D1CA196F700478CE9 /* Sources */,
+				25339F1E1CA196F700478CE9 /* Frameworks */,
+				25339F1F1CA196F700478CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXResourceRenamer;
+			productName = WXResourceRenamer;
+			productReference = 25339F211CA196F700478CE9 /* WXResourceRenamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25339F311CA196F700478CE9 /* WXResourceRenamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25339F491CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerTests" */;
+			buildPhases = (
+				25339F2E1CA196F700478CE9 /* Sources */,
+				25339F2F1CA196F700478CE9 /* Frameworks */,
+				25339F301CA196F700478CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25339F341CA196F700478CE9 /* PBXTargetDependency */,
+			);
+			name = WXResourceRenamerTests;
+			productName = WXResourceRenamerTests;
+			productReference = 25339F321CA196F700478CE9 /* WXResourceRenamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25339F3C1CA196F700478CE9 /* WXResourceRenamerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25339F4C1CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerUITests" */;
+			buildPhases = (
+				25339F391CA196F700478CE9 /* Sources */,
+				25339F3A1CA196F700478CE9 /* Frameworks */,
+				25339F3B1CA196F700478CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25339F3F1CA196F700478CE9 /* PBXTargetDependency */,
+			);
+			name = WXResourceRenamerUITests;
+			productName = WXResourceRenamerUITests;
+			productReference = 25339F3D1CA196F700478CE9 /* WXResourceRenamerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25339F191CA196F700478CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WelkinXie;
+				TargetAttributes = {
+					25339F201CA196F700478CE9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					25339F311CA196F700478CE9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25339F201CA196F700478CE9;
+					};
+					25339F3C1CA196F700478CE9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25339F201CA196F700478CE9;
+					};
+				};
+			};
+			buildConfigurationList = 25339F1C1CA196F700478CE9 /* Build configuration list for PBXProject "WXResourceRenamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25339F181CA196F700478CE9;
+			productRefGroup = 25339F221CA196F700478CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25339F201CA196F700478CE9 /* WXResourceRenamer */,
+				25339F311CA196F700478CE9 /* WXResourceRenamerTests */,
+				25339F3C1CA196F700478CE9 /* WXResourceRenamerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25339F1F1CA196F700478CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25339F291CA196F700478CE9 /* Assets.xcassets in Resources */,
+				25339F2C1CA196F700478CE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F301CA196F700478CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F3B1CA196F700478CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25339F1D1CA196F700478CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25339F271CA196F700478CE9 /* ViewController.swift in Sources */,
+				25339F251CA196F700478CE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F2E1CA196F700478CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25339F371CA196F700478CE9 /* WXResourceRenamerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25339F391CA196F700478CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25339F421CA196F700478CE9 /* WXResourceRenamerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25339F341CA196F700478CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25339F201CA196F700478CE9 /* WXResourceRenamer */;
+			targetProxy = 25339F331CA196F700478CE9 /* PBXContainerItemProxy */;
+		};
+		25339F3F1CA196F700478CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25339F201CA196F700478CE9 /* WXResourceRenamer */;
+			targetProxy = 25339F3E1CA196F700478CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25339F2A1CA196F700478CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25339F2B1CA196F700478CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25339F441CA196F700478CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25339F451CA196F700478CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25339F471CA196F700478CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25339F481CA196F700478CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25339F4A1CA196F700478CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXResourceRenamer.app/Contents/MacOS/WXResourceRenamer";
+			};
+			name = Debug;
+		};
+		25339F4B1CA196F700478CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXResourceRenamer.app/Contents/MacOS/WXResourceRenamer";
+			};
+			name = Release;
+		};
+		25339F4D1CA196F700478CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXResourceRenamer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25339F4E1CA196F700478CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WXResourceRenamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WelkinXie.WXResourceRenamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXResourceRenamer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25339F1C1CA196F700478CE9 /* Build configuration list for PBXProject "WXResourceRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25339F441CA196F700478CE9 /* Debug */,
+				25339F451CA196F700478CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25339F461CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25339F471CA196F700478CE9 /* Debug */,
+				25339F481CA196F700478CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25339F491CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25339F4A1CA196F700478CE9 /* Debug */,
+				25339F4B1CA196F700478CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25339F4C1CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25339F4D1CA196F700478CE9 /* Debug */,
+				25339F4E1CA196F700478CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25339F191CA196F700478CE9 /* Project object */;
+}
