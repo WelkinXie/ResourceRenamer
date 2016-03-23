@@ -4,6 +4,8 @@
 * UI设计师对出的素材命名不规范？
 * 没有对应大小写出@2x、@3x？
 
+[__点击这里获取本应用__](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/WXResourceRenamer.app.zip)
+
 ### 展示
 1. 点击 " **选择** ", 选择需要命名的素材。
 2. 设置命名规则。
