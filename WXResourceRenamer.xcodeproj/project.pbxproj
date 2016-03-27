@@ -477,6 +477,7 @@
 				25339F481CA196F700478CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25339F491CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				25339F4B1CA196F700478CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25339F4C1CA196F700478CE9 /* Build configuration list for PBXNativeTarget "WXResourceRenamerUITests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +495,7 @@
 				25339F4E1CA196F700478CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
