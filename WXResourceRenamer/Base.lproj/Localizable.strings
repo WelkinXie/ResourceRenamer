@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  WXResourceRenamer
+
+  Created by Welkin Xie on 4/4/16.
+  Copyright © 2016 WelkinXie. All rights reserved.
+*/
+
+"Select" = "选择";
+"Start" = "开始";
+"Wait" = "请稍候";
+
+"AddPrefix" = "添加前缀";
+"AddSuffix" = "添加后缀";
+
+"Finished" = "\n\n完成";

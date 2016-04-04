@@ -26,6 +26,11 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "WXRenamer"
+        
+        self.startButton.title = NSLocalizedString("Start", comment: "")
+        self.selectButton.title = NSLocalizedString("Select", comment: "")
+        self.prefixButton.title = NSLocalizedString("AddPrefix", comment: "")
+        self.subfixButton.title = NSLocalizedString("AddSuffix", comment: "")
     }
 
     override var representedObject: AnyObject? {
@@ -55,7 +60,7 @@ class ViewController: NSViewController {
     @IBAction func startPressed(sender: NSButton) {
         
         self.switchState(false)
-        self.startButton.title = "请稍候"
+        self.startButton.title = NSLocalizedString("Wait", comment: "")
         
         dispatch_async(dispatch_get_global_queue(0, 0)) {
             
@@ -65,10 +70,10 @@ class ViewController: NSViewController {
                 
                 var newfileName = path.URLByDeletingPathExtension!.lastPathComponent!
                 
-                if self.prefixButton.state == NSOnState {
+                if self.prefixButton.state == NSOnState && !newfileName.hasPrefix(self.prefixField.stringValue) {
                     newfileName = self.prefixField.stringValue + newfileName
                 }
-                if self.subfixButton.state == NSOnState {
+                if self.subfixButton.state == NSOnState && !newfileName.hasSuffix(self.subfixField.stringValue)  {
                     newfileName = newfileName + self.subfixField.stringValue
                 }
                 
@@ -92,9 +97,9 @@ class ViewController: NSViewController {
             
             dispatch_async(dispatch_get_main_queue(), {
                 self.switchState(true)
-                self.startButton.title = "开始"
-                if !self.pathView.string!.hasSuffix("\n\n完成") {
-                    self.pathView.string = self.pathView.string! + "\n\n完成"
+                self.startButton.title = NSLocalizedString("Start", comment: "")
+                if !self.pathView.string!.hasSuffix(NSLocalizedString("Finished", comment: "")) {
+                    self.pathView.string = self.pathView.string! + NSLocalizedString("Finished", comment: "")
                 }
             })
         }

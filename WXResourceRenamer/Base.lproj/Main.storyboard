@@ -669,11 +669,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="WXResourceRenamer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="338"/>
+                        <rect key="frame" x="0.0" y="0.0" width="499" height="338"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EQx-08-Tg0">
-                                <rect key="frame" x="389" y="294" width="71" height="25"/>
+                                <rect key="frame" x="407" y="294" width="71" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="71" id="bJZ-Qt-KKF"/>
                                 </constraints>
@@ -686,19 +686,19 @@
                                 </connections>
                             </button>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZw-eU-tmC">
-                                <rect key="frame" x="20" y="20" width="342" height="304"/>
-                                <clipView key="contentView" id="udz-gy-pkl">
-                                    <rect key="frame" x="1" y="1" width="340" height="302"/>
+                                <rect key="frame" x="20" y="20" width="360" height="304"/>
+                                <clipView key="contentView" ambiguous="YES" id="udz-gy-pkl">
+                                    <rect key="frame" x="1" y="1" width="358" height="302"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textView editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="zNO-Pe-qlX">
-                                            <rect key="frame" x="0.0" y="0.0" width="340" height="302"/>
+                                        <textView ambiguous="YES" editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="zNO-Pe-qlX">
+                                            <rect key="frame" x="0.0" y="0.0" width="358" height="302"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="340" height="302"/>
+                                            <size key="minSize" width="358" height="302"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="340" height="302"/>
+                                            <size key="minSize" width="358" height="302"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -709,26 +709,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="6oa-Xr-73v">
-                                    <rect key="frame" x="325" y="1" width="16" height="302"/>
+                                    <rect key="frame" x="343" y="1" width="16" height="302"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" id="cB7-Ho-fFX">
-                                <rect key="frame" x="387" y="246" width="74" height="18"/>
-                                <buttonCell key="cell" type="check" title="添加前缀" bezelStyle="regularSquare" imagePosition="left" inset="2" id="tnA-CL-vus">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
-                                </buttonCell>
-                            </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="OHf-Bt-c18">
-                                <rect key="frame" x="387" y="171" width="74" height="18"/>
+                                <rect key="frame" x="410" y="171" width="70" height="18"/>
                                 <buttonCell key="cell" type="check" title="添加后缀" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="yF2-Vw-F8S">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                    <font key="font" size="12" name=".PingFangSC-Regular"/>
                                 </buttonCell>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nQK-2p-Nt2">
-                                <rect key="frame" x="384" y="218" width="76" height="22"/>
+                                <rect key="frame" x="412" y="218" width="66" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WF0-CH-89o">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -736,7 +729,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pLB-c9-lvJ">
-                                <rect key="frame" x="384" y="143" width="76" height="22"/>
+                                <rect key="frame" x="412" y="143" width="66" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="@2x" drawsBackground="YES" id="feR-Vd-pSY">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -744,7 +737,7 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-SQ-Psp">
-                                <rect key="frame" x="389" y="58" width="71" height="25"/>
+                                <rect key="frame" x="408" y="58" width="71" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="71" id="y6v-CI-Scd"/>
                                 </constraints>
@@ -756,29 +749,35 @@
                                     <action selector="startPressed:" target="XfG-lQ-9wD" id="7CF-Fv-jIE"/>
                                 </connections>
                             </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="cB7-Ho-fFX">
+                                <rect key="frame" x="410" y="246" width="70" height="18"/>
+                                <buttonCell key="cell" type="check" title="添加前缀" bezelStyle="regularSquare" imagePosition="left" inset="2" id="tnA-CL-vus">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="12" name=".PingFangSC-Regular"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="AKq-SQ-Psp" firstAttribute="top" secondItem="pLB-c9-lvJ" secondAttribute="bottom" constant="61" id="35E-QW-xV2"/>
                             <constraint firstAttribute="bottom" secondItem="VZw-eU-tmC" secondAttribute="bottom" constant="20" id="3JO-hX-UdP"/>
+                            <constraint firstItem="pLB-c9-lvJ" firstAttribute="leading" secondItem="OHf-Bt-c18" secondAttribute="leading" id="5f6-nm-Eo6"/>
                             <constraint firstAttribute="trailing" secondItem="cB7-Ho-fFX" secondAttribute="trailing" constant="21" id="7MH-IA-2AA"/>
-                            <constraint firstAttribute="trailing" secondItem="nQK-2p-Nt2" secondAttribute="trailing" constant="20" id="95O-tO-v4g"/>
+                            <constraint firstItem="pLB-c9-lvJ" firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" id="87f-i2-AE5"/>
+                            <constraint firstItem="nQK-2p-Nt2" firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" id="9MN-Rd-hgu"/>
                             <constraint firstAttribute="trailing" secondItem="AKq-SQ-Psp" secondAttribute="trailing" constant="20" id="9lV-GQ-Tly"/>
-                            <constraint firstItem="cB7-Ho-fFX" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="43" id="Cam-cs-tir"/>
                             <constraint firstItem="EQx-08-Tg0" firstAttribute="leading" secondItem="VZw-eU-tmC" secondAttribute="trailing" constant="27" id="J8N-e8-bjZ"/>
                             <constraint firstItem="OHf-Bt-c18" firstAttribute="top" secondItem="nQK-2p-Nt2" secondAttribute="bottom" constant="31" id="Jjx-KE-w8w"/>
+                            <constraint firstItem="cB7-Ho-fFX" firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" id="Jqz-bp-abn"/>
                             <constraint firstItem="cB7-Ho-fFX" firstAttribute="top" secondItem="EQx-08-Tg0" secondAttribute="bottom" constant="34" id="Msu-7V-07y"/>
                             <constraint firstItem="EQx-08-Tg0" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="NAu-83-Hsa"/>
                             <constraint firstItem="nQK-2p-Nt2" firstAttribute="top" secondItem="cB7-Ho-fFX" secondAttribute="bottom" constant="8" id="YAJ-t5-i4i"/>
-                            <constraint firstItem="pLB-c9-lvJ" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="38" id="c8t-Sn-wKc"/>
-                            <constraint firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" constant="20" id="fVn-8c-Sgb"/>
+                            <constraint firstItem="nQK-2p-Nt2" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="98" id="ZoT-2O-9cy"/>
+                            <constraint firstItem="nQK-2p-Nt2" firstAttribute="leading" secondItem="cB7-Ho-fFX" secondAttribute="leading" id="iwQ-mM-zMy"/>
                             <constraint firstItem="VZw-eU-tmC" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="14" id="jje-ge-ZaI"/>
-                            <constraint firstItem="nQK-2p-Nt2" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="38" id="l3H-ri-gDK"/>
-                            <constraint firstAttribute="trailing" secondItem="pLB-c9-lvJ" secondAttribute="trailing" constant="20" id="lLc-iB-3Bk"/>
-                            <constraint firstAttribute="trailing" secondItem="OHf-Bt-c18" secondAttribute="trailing" constant="21" id="qWM-qI-YdB"/>
                             <constraint firstItem="pLB-c9-lvJ" firstAttribute="top" secondItem="OHf-Bt-c18" secondAttribute="bottom" constant="8" id="rAy-8c-0ON"/>
-                            <constraint firstItem="OHf-Bt-c18" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="43" id="rge-hW-XWx"/>
                             <constraint firstItem="VZw-eU-tmC" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="sqG-Nm-2of"/>
-                            <constraint firstItem="AKq-SQ-Psp" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="43" id="xdd-TM-sGU"/>
+                            <constraint firstItem="AKq-SQ-Psp" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="27" id="xdd-TM-sGU"/>
+                            <constraint firstItem="OHf-Bt-c18" firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" id="yTT-eb-XMA"/>
                         </constraints>
                     </view>
                     <connections>
@@ -793,7 +792,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="689"/>
+            <point key="canvasLocation" x="84.5" y="689"/>
         </scene>
     </scenes>
 </document>
