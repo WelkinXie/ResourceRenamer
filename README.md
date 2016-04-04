@@ -33,7 +33,7 @@ The renamed files will be in the folder named " **renamed** ".
 
 iOS、OSX 开发者的图片素材命名器
 
-为素材统一添加前缀、后缀，**@2x** 、 **@3x** 。
+为素材统一添加前缀、后缀， **@2x** 、 **@3x** 。
 
 * UI设计师对出的素材命名不规范？
 * 没有对应大小写出@2x、@3x？
