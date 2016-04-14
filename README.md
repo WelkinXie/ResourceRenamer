@@ -22,6 +22,10 @@ The renamed files will be in the folder named " **renamed** ".
 
 ![()](http://7xneqd.com1.z0.glb.clouddn.com/rename_results.png)
 
+Of course, actually all you need to handle this in most condition is simply a script
+[__renamer.py__](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/renamer.py.zip) .
+
+Run it with **python3**, then just follow the hint. :)
 
 ##License
 **WXResourceRenamer** is released under MIT license。
@@ -54,6 +58,9 @@ iOS、OSX 开发者的图片素材命名器
 
 ![()](http://7xneqd.com1.z0.glb.clouddn.com/rename_results.png)
 
+其实，上述所有的都并没什么卵用。在通常情况下，你只需要一个脚本就可以实现上述的功能。[__renamer.py__](http://welkin-xie.oss-cn-shenzhen.aliyuncs.com/renamer.py.zip)
+
+在python3的环境下运行，然后按照提示操作即可。:)
 
 ##许可
 **WXResourceRenamer** 以MIT标准发布。
