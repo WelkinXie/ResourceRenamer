@@ -687,18 +687,18 @@
                             </button>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZw-eU-tmC">
                                 <rect key="frame" x="20" y="20" width="360" height="304"/>
-                                <clipView key="contentView" ambiguous="YES" id="udz-gy-pkl">
+                                <clipView key="contentView" id="udz-gy-pkl">
                                     <rect key="frame" x="1" y="1" width="358" height="302"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textView ambiguous="YES" editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="zNO-Pe-qlX">
+                                        <textView editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="zNO-Pe-qlX">
                                             <rect key="frame" x="0.0" y="0.0" width="358" height="302"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="358" height="302"/>
+                                            <size key="minSize" width="343" height="302"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="358" height="302"/>
+                                            <size key="minSize" width="343" height="302"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -709,7 +709,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="6oa-Xr-73v">
-                                    <rect key="frame" x="343" y="1" width="16" height="302"/>
+                                    <rect key="frame" x="344" y="1" width="15" height="302"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
@@ -776,7 +776,6 @@
                             <constraint firstItem="VZw-eU-tmC" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="14" id="jje-ge-ZaI"/>
                             <constraint firstItem="pLB-c9-lvJ" firstAttribute="top" secondItem="OHf-Bt-c18" secondAttribute="bottom" constant="8" id="rAy-8c-0ON"/>
                             <constraint firstItem="VZw-eU-tmC" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="sqG-Nm-2of"/>
-                            <constraint firstItem="AKq-SQ-Psp" firstAttribute="leading" secondItem="zNO-Pe-qlX" secondAttribute="trailing" constant="27" id="xdd-TM-sGU"/>
                             <constraint firstItem="OHf-Bt-c18" firstAttribute="trailing" secondItem="EQx-08-Tg0" secondAttribute="trailing" id="yTT-eb-XMA"/>
                         </constraints>
                     </view>
