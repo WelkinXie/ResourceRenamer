@@ -17,7 +17,7 @@ class ViewController: NSViewController {
     @IBOutlet weak var selectButton: NSButton!
     @IBOutlet weak var startButton: NSButton!
     
-    var filePaths: [NSURL] = []
+    var filePaths = [NSURL]()
     
     @IBOutlet weak var prefixButton: NSButton!
     @IBOutlet weak var subfixButton: NSButton!
@@ -27,7 +27,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "WXRenamer"
+        self.title = "Resources Renamer"
         
         self.startButton.title = NSLocalizedString("Start", comment: "")
         self.selectButton.title = NSLocalizedString("Select", comment: "")
@@ -81,7 +81,7 @@ class ViewController: NSViewController {
                 
                 let directoryPath = path.URLByDeletingLastPathComponent!.relativePath! + "/renamed"
                 if !fileManager.fileExistsAtPath(directoryPath) {
-                    let fileDirectory = NSURL.init(fileURLWithPath: directoryPath)
+                    let fileDirectory = NSURL(fileURLWithPath: directoryPath)
                     do {
                         try fileManager.createDirectoryAtURL(fileDirectory, withIntermediateDirectories: false, attributes: nil)
                     } catch {
