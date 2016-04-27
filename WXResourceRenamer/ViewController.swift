@@ -27,12 +27,12 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Resources Renamer"
+        title = "Resources Renamer"
         
-        self.startButton.title = NSLocalizedString("Start", comment: "")
-        self.selectButton.title = NSLocalizedString("Select", comment: "")
-        self.prefixButton.title = NSLocalizedString("AddPrefix", comment: "")
-        self.subfixButton.title = NSLocalizedString("AddSuffix", comment: "")
+        startButton.title = NSLocalizedString("Start", comment: "")
+        selectButton.title = NSLocalizedString("Select", comment: "")
+        prefixButton.title = NSLocalizedString("AddPrefix", comment: "")
+        subfixButton.title = NSLocalizedString("AddSuffix", comment: "")
     }
 
     override var representedObject: AnyObject? {
@@ -49,20 +49,20 @@ class ViewController: NSViewController {
         
         if openPanel.runModal() == NSModalResponseOK {
             
-            self.filePaths.removeAll()
+            filePaths.removeAll()
             
             for url in openPanel.URLs {
-                self.filePaths.append(url)
+                filePaths.append(url)
             }
             
         }
-        self.pathView.string = self.filePathsString()
+        pathView.string = filePathsString()
     }
     
     @IBAction func startPressed(sender: NSButton) {
         
-        self.switchState(false)
-        self.startButton.title = NSLocalizedString("Wait", comment: "")
+        switchState(false)
+        startButton.title = NSLocalizedString("Wait", comment: "")
         
         dispatch_async(dispatch_get_global_queue(0, 0)) {
             
@@ -109,7 +109,7 @@ class ViewController: NSViewController {
     
     func filePathsString() -> String {
         var pathString = ""
-        for path in self.filePaths {
+        for path in filePaths {
             let addedPath = path.relativePath!.stringByRemovingPercentEncoding
             pathString = pathString + addedPath! + "\n\n"
         }
@@ -117,12 +117,12 @@ class ViewController: NSViewController {
     }
     
     func switchState(flag: Bool) {
-        self.selectButton.enabled = flag
-        self.prefixButton.enabled = flag
-        self.prefixField.editable = flag
-        self.subfixButton.enabled = flag
-        self.subfixField.editable = flag
-        self.startButton.enabled = flag
+        selectButton.enabled = flag
+        prefixButton.enabled = flag
+        prefixField.editable = flag
+        subfixButton.enabled = flag
+        subfixField.editable = flag
+        startButton.enabled = flag
     }
 }
 
